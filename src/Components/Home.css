@@ -1,0 +1,53 @@
+.main-body{
+    background-color: beige;
+    padding: 20px;
+}
+
+.card-body{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.card{
+    margin: 15px;
+    border-radius: 10px;
+    border: 2px solid rgb(9, 9, 9);
+    background-color: rgba(176, 174, 174, 0.4);
+}
+
+.main-card-body
+{
+    margin-top: 20px;
+    background-color: rgba(166, 239, 225, 0.4);
+    padding: 20px;
+}
+.main-card-body h2{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.button{
+    margin: 6px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.button:hover{
+    scale: 1.1;
+    transition: all linear .2s;
+}
+
+.category{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.form-control{
+    width: 60%;
+    margin: 0 auto;
+}
